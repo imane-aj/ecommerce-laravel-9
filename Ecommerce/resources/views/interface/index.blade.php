@@ -1,7 +1,7 @@
-@extends('interface.layouts.master')
+@extends('master')
 @section('title','Doudi Shop')
 @section('content')
-
+    @include('interface.layouts.master-navbar')
     @include('interface.inc.home-menu')
 
     <button id="myBtnScroll"><i class='material-icons'>arrow_upward</i></button>
