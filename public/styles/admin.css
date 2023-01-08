@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#app .a-logo{
+    color: #444;
+    text-decoration: none;
+    font-weight: 900;
+    margin-bottom: -22px;
+    margin-top: -5px;
+}
+.index-admin .card{
+    margin-top: 50%;
+    background-color: #4ccec6;
+    border-color: #ffffff0a;
+}
+.index-admin .card span{
+    font-size: 2em;
+    font-weight: 600;
+}
+.product-index{
+    margin-top: 3em;
+}
+
+
+.product-index ul a {
+    font-weight: 600;
+    color: #dc3545;
+    font-family: cursive;
+}
+.product-index ul a:hover{
+    color: orange;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #7c7a7a;
+    font-weight: 600;
+}
+.dropdown-item {
+    color: #dc3545bf;
+}
+.table > thead {
+    color: #ed1b24;
+    font-family: cursive;
+}
+.form-control {
+    display: block;
+}
+
+.product-index .card-title{
+    text-align: center;
+    margin-top: .5em;
+    color: #dc3545;
+    font-weight: 600;
+}
+.product-index form .input-group-text{
+    width: 30%;
+}
